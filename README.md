@@ -20,7 +20,7 @@ studentai, kurių galutinis balas < 5.0 - nuskriaustukai,
 studentai, kurių galutinis balas >= 5.0 - kietiakiai.
 2. Jie išvedami į atskirus failus.
 3. Atliekama greičio analizė:
-<img width="334" alt="Be pavadinimo" src="https://user-images.githubusercontent.com/91346039/197012147-93a609a1-42a7-4578-882b-9e45ead2d531.png">
+<img width="322" alt="bepav" src="https://user-images.githubusercontent.com/91346039/197012342-8e8dea58-0770-40bd-82a6-1852aca5de4b.png">
 
 
 
