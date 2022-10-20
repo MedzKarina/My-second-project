@@ -13,3 +13,13 @@
 2. Dabar vartotojas turi pasirinkima: ar failai bus įvedinėjami ranka ar skaitomi iš failo.
 3. Yra tikrinimas ar failas nėra tuščias.
 4. Taip pat sveikojo skaičiaus patikra.
+
+-v0.3
+1. Studentai padalinami į dvi kategorijas:
+studentai, kurių galutinis balas < 5.0 - nuskriaustukai,
+studentai, kurių galutinis balas >= 5.0 - kietiakiai.
+2. Jie išvedami į atskirus failus.
+3. Atliekama greičio analizė:
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/91346039/197010534-02c85fe0-6b68-460b-b216-fb82ed822e56.png">
+
+
