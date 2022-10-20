@@ -14,7 +14,7 @@
 3. Yra tikrinimas ar failas nėra tuščias.
 4. Taip pat sveikojo skaičiaus patikra.
 
--v0.3
+- v0.3
 1. Studentai padalinami į dvi kategorijas:
 studentai, kurių galutinis balas < 5.0 - nuskriaustukai,
 studentai, kurių galutinis balas >= 5.0 - kietiakiai.
