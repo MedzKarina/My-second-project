@@ -22,8 +22,9 @@
 
 ## **v0.4**
 1. Patobulinta v0.3 versija.
+2. Programoje naudojama dinaminė duomenų struktūra - std::list.
+3. Atlikti spartos matavimai:
 <img width="313" alt="v04" src="https://user-images.githubusercontent.com/91346039/199539697-be4faa6d-8bbe-4d80-80b5-b47d249d29a7.png">
 
-##### Testų metu naudoto kompiuterio parametrai: 
-CPU: AMD Ryzen 5 Microsoft Surface (R) Edition 2.20 GHz, 
+**Testų metu naudoto kompiuterio parametrai:** CPU: AMD Ryzen 5 Microsoft Surface (R) Edition 2.20 GHz, 8gb RAM, SSD.
 
