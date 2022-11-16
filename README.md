@@ -1,8 +1,11 @@
 # **Projekto dalys**
 
-## **v0.1**
+## **v0.1** 
+:bookmark: v0.11
 - Sukurta strukrūta "Studentas", joje bus įrašoma informacija apie kiekvieną studentą (pvz.: vardas, pavardė, galutinis balas).
-- Panaudotos dvi funkcijos: spausdinimo, pildymo.
+- Panaudotos dvi funkcijos: 
+  - spausdinimo
+  - pildymo
 - Sukurtas sąrašas "studentai".
 - Medianos ir vidurkio radimas.
 - Buvo sukurtas dar vienas ciklas, kuriame aprašyta sąlyga kaip programa turi elgtis, kai yra nežinomas nd skaičius iš anksto.
@@ -10,7 +13,9 @@
 
 ## **v0.2**
 - Paliktas failas tik su vektoriumi.
-- Dabar vartotojas turi pasirinkima: ar failai bus įvedinėjami ranka ar skaitomi iš failo.
+- Dabar vartotojas turi pasirinkima: 
+  - ar failai bus įvedinėjami ranka 
+  - ar skaitomi iš failo.
 - Yra tikrinimas ar failas nėra tuščias.
 - Taip pat sveikojo skaičiaus patikra.
 
@@ -30,5 +35,5 @@
 
 **Testų metu naudoto kompiuterio parametrai:** CPU: AMD Ryzen 5 Microsoft Surface (R) Edition 2.20 GHz, 8gb RAM, SSD.
 
-## **v0.4**
+## **v0.4.1**
 
