@@ -2,14 +2,14 @@
 
 ## **v0.1** 
 > :bookmark: v0.11
-- Sukurta strukrūta "Studentas", joje bus įrašoma informacija apie kiekvieną studentą (pvz.: vardas, pavardė, galutinis balas).
+- Sukurta strukrūta `Studentas`, joje bus įrašoma informacija apie kiekvieną studentą (pvz.: vardas, pavardė, galutinis balas).
 - Panaudotos dvi funkcijos: 
   - spausdinimo
   - pildymo
 - Sukurtas sąrašas "studentai".
 - Medianos ir vidurkio radimas.
 - Buvo sukurtas dar vienas ciklas, kuriame aprašyta sąlyga kaip programa turi elgtis, kai yra nežinomas nd skaičius iš anksto.
-- Taip pat buvo panaudoti <vektoriai>.
+- Taip pat buvo panaudoti vektoriai.
 
 ## **v0.2** 
 > :bookmark: v0.21
