@@ -48,8 +48,8 @@ Patobulinta `v0.4` versijos realizacija.
   - duomenų nuskaitymas iš failų
   - studentų grupavimas į dvi grupes
 - Analizė atliekama iš failų sudarytų iš 1 000, 10 000, 100 000, 1 000 000 įrašų.
-<Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
-Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.>
+> Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
+> Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
 <img src="https://user-images.githubusercontent.com/91346039/202247096-309f0873-733b-4008-bef9-b4d41dcbbef2.png" width=40% height=40%>
 
 ## **v1.0** 
@@ -75,5 +75,5 @@ cmake --build .
 - Paleidus programą įvedamas studentų skaičius. 
 - Pagal tai bus sugeneruojami failai su atsitiktinais studentų sąrašais.
 - Atliekama programos veikimo greičio (spartos) analizė.
-<Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
-Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.>
+> Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
+> Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
