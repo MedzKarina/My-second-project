@@ -57,9 +57,9 @@ Patobulinta `v0.4` versijos realizacija.
 > :bookmark: v1.0
 - Šioje versijoje optimizuojama rūšiavimo (grupavimo) realizacija: std::vector ir std::list konteinerių tipams išmatuojama programos veikimo sparta, priklausomai nuo studentų skirstymo į dvi kategorijas strategijos:
    - 1 strategija: 
-    - Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
+      - Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
    - 2 strategija:
-    - Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
+      - Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
 Ant vieno fiksuoto konteinerio - vector studentų rūšiavimo (dalijimo) procedūrai paspartinti, t. y. optimizuoti pritaikytas algoritmas std::stable_partition: visi elementai, kurių galutinis vidurkis > 5 eina prieš tuos, kurie netenkina sąlygos (galutinis vidurkis < 5).
 
 ## Išvados
