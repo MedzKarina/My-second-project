@@ -40,5 +40,14 @@
 
 ## **v0.4.1** 
 > :bookmark: v0.42
-
+Patobulinta `v0.4` versijos realizacija.
+- Išmatuojama veikimo sparta priklausomai nuo naudojamo vieno iš dviejų konteinerių:
+  - std::vector
+  - std::list
+- Programoje matuojami šie atliekami žingsniai:
+  - duomenų nuskaitymas iš failų
+  - studentų grupavimas į dvi grupes
+- Analizė atliekama iš failų sudarytų iš 1 000, 10 000, 100 000, 1 000 000 įrašų.
+Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
+Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
 
