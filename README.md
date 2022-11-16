@@ -20,8 +20,8 @@
 - Yra tikrinimas ar failas nėra tuščias.
 - Taip pat sveikojo skaičiaus patikra.
 
-## **v0.3** :bookmark: 
-> v0.31
+## **v0.3** 
+> :bookmark: v0.31
 - Studentai padalinami į dvi kategorijas: 
   - studentai, kurių galutinis balas < 5.0 - `nuskriaustukai`
   - studentai, kurių galutinis balas >= 5.0 - `kietiakiai`
