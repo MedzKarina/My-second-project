@@ -50,6 +50,6 @@ Patobulinta `v0.4` versijos realizacija.
 - Analizė atliekama iš failų sudarytų iš 1 000, 10 000, 100 000, 1 000 000 įrašų.
 - Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
 Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
-<img width="313" alt="v04" src="https://user-images.githubusercontent.com/91346039/202246388-067ed351-9eed-4b8a-8f82-3988d95d3a3a.png">
+<img src="https://user-images.githubusercontent.com/91346039/202246388-067ed351-9eed-4b8a-8f82-3988d95d3a3a.png">
 
 
