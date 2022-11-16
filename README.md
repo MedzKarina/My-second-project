@@ -1,6 +1,7 @@
 # **Projekto dalys**
 
-## **v0.1** > :bookmark: v0.11
+## **v0.1** 
+> :bookmark: v0.11
 - Sukurta strukrūta "Studentas", joje bus įrašoma informacija apie kiekvieną studentą (pvz.: vardas, pavardė, galutinis balas).
 - Panaudotos dvi funkcijos: 
   - spausdinimo
