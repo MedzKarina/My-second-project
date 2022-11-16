@@ -51,3 +51,6 @@ Patobulinta `v0.4` versijos realizacija.
 - Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
 Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
 <img src="https://user-images.githubusercontent.com/91346039/202247096-309f0873-733b-4008-bef9-b4d41dcbbef2.png" width=40% height=40%>
+
+## **v1.0** 
+> :bookmark: v1.0
