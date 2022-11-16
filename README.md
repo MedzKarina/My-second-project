@@ -56,21 +56,15 @@ Patobulinta `v0.4` versijos realizacija.
 ## **v1.0** 
 > :bookmark: v1.0
 - Šioje versijoje optimizuojama rūšiavimo (grupavimo) realizacija: std::vector ir std::list konteinerių tipams išmatuojama programos veikimo sparta, priklausomai nuo studentų skirstymo į dvi kategorijas strategijos:
-   - 1 strategija: Bendro "students" konteinerio (vector ir list tipų) skaidymas (rūšiavimas) į du naujus to paties tipo konteinerius: "stupid" ir "smart". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "students" ir viename iš suskaidytų ("stupid" arba "smart").
-   - 2 strategija: Bendro "students" konteinerio (vector ir list) skaidymas (rūšiavimas) panaudojant tik vieną naują konteinerį: "stupid". Tokiu būdu, jei studentas yra nelaimingas "stupid", jį turime įkelti į naująjį "stupid" konteinerį ir ištrinti iš bendro "students" konteinerio. Po šio žingsnio "students" konteineryje liks vien tik protingi "smart".
+   - 1 strategija: 
+    - Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
+   - 2 strategija:
+    - Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
 Ant vieno fiksuoto konteinerio - vector studentų rūšiavimo (dalijimo) procedūrai paspartinti, t. y. optimizuoti pritaikytas algoritmas std::stable_partition: visi elementai, kurių galutinis vidurkis > 5 eina prieš tuos, kurie netenkina sąlygos (galutinis vidurkis < 5).
-Parengta naudojimosi instrukcija, t. y. aprašyti pagrindiniai žingsniai.
-Parengta įdiegimo instrukcija, t. y. sukurtas cmake CMakeLists.txt (bet kokios OS atveju).
 
 ## Išvados
 Naudojant 1 strategiją programos vykdymo greitis gana spartus, tačiau 1 strategija yra neefektyvi užimamos atminties atžvilgiu. Naudojant tiek std::vector, tiek std::list konteinerius duomenų nuskaitymo sparta yra panaši. List'ų struktūra sudėtingesnė, todėl skirstant studentus į dvi grupes/kategorijas, jie yra lėtesni nei vektoriai.
 Atminties atveju 2 strategija efektyvesnė, tačiau dažni trynimai gali būti "skausmingi".
-
-## Įdiegimo instrukcija:
-Parsisiųsti norimą programos versijos (v1.0) kodą iš Releases;
-Kodą sukompiliuoti per komandinę eilutę arba pasirinktą IDE. Naudojant CMakeLists.txt:
-cmake .
-cmake --build .
 
 ## Naudojimosi instrukcija:
 - Paleidus programą įvedamas studentų skaičius. 
