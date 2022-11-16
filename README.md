@@ -15,7 +15,9 @@
 - Taip pat sveikojo skaičiaus patikra.
 
 ## **v0.3**
-- Studentai padalinami į dvi kategorijas: studentai, kurių galutinis balas < 5.0 - nuskriaustukai, studentai, kurių galutinis balas >= 5.0 - kietiakiai.
+- Studentai padalinami į dvi kategorijas: 
+  - studentai, kurių galutinis balas < 5.0 - nuskriaustukai
+  - studentai, kurių galutinis balas >= 5.0 - kietiakiai.
 - Jie išvedami į atskirus failus.
 - Atliekama greičio analizė:
 <img width="313" alt="v04" src="https://user-images.githubusercontent.com/91346039/199539302-0ed431df-c8ed-49f1-907e-ec9e624d9afa.png">
@@ -27,4 +29,6 @@
 <img width="313" alt="v04" src="https://user-images.githubusercontent.com/91346039/199539697-be4faa6d-8bbe-4d80-80b5-b47d249d29a7.png">
 
 **Testų metu naudoto kompiuterio parametrai:** CPU: AMD Ryzen 5 Microsoft Surface (R) Edition 2.20 GHz, 8gb RAM, SSD.
+
+## **v0.4**
 
