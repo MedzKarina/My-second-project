@@ -59,6 +59,8 @@ Patobulinta `v0.4` versijos realizacija.
    - ***1 strategija***: Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
    - ***2 strategija***: Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
 Ant vieno fiksuoto konteinerio - vector studentų rūšiavimo (dalijimo) procedūrai paspartinti, t. y. optimizuoti pritaikytas algoritmas std::stable_partition: visi elementai, kurių galutinis vidurkis > 5 eina prieš tuos, kurie netenkina sąlygos (galutinis vidurkis < 5).
+<img width="398" alt="Be pavadinimo2" src="https://user-images.githubusercontent.com/91346039/202422783-69f2c392-3a0b-4b44-adf7-d4601be53f52.png">
+
 
 ## Išvados
 Naudojant 1 strategiją programos vykdymo greitis gana spartus, tačiau 1 strategija yra neefektyvi užimamos atminties atžvilgiu. Naudojant tiek std::vector, tiek std::list konteinerius duomenų nuskaitymo sparta yra panaši. List'ų struktūra sudėtingesnė, todėl skirstant studentus į dvi grupes/kategorijas, jie yra lėtesni nei vektoriai.
