@@ -14,7 +14,7 @@
 ## **v0.2** 
 > :bookmark: v0.21
 - Paliktas failas tik su vektoriumi.
-- Dabar vartotojas turi pasirinkima: 
+- Dabar vartotojas turi pasirinkimą: 
   - ar failai bus įvedinėjami ranka 
   - ar skaitomi iš failo.
 - Yra tikrinimas ar failas nėra tuščias.
@@ -56,10 +56,8 @@ Patobulinta `v0.4` versijos realizacija.
 ## **v1.0** 
 > :bookmark: v1.0
 - Šioje versijoje optimizuojama rūšiavimo (grupavimo) realizacija: std::vector ir std::list konteinerių tipams išmatuojama programos veikimo sparta, priklausomai nuo studentų skirstymo į dvi kategorijas strategijos:
-   - 1 strategija: 
-      - Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
-   - 2 strategija:
-      - Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
+   - 1 strategija: Bendro "studentai" konteinerio (vector ir list tipų) grupavimas į du naujus to paties tipo konteinerius: "nuskriaustukai" ir "kietiakai". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame "studentai" ir viename iš suskaidytų.
+   - 2 strategija: Bendro "studentai" konteinerio (vector ir list) grupavimas panaudojant tik vieną naują konteinerį: "nuskriaustukai". Tokiu būdu, jei studentas yra "nuskriaustukai", jį turime įkelti į naująjį "nuskriaustukai" konteinerį ir ištrinti iš bendro "studentai" konteinerio. Po šio žingsnio "studentai" konteineryje liks vien tik "kietiakai".
 Ant vieno fiksuoto konteinerio - vector studentų rūšiavimo (dalijimo) procedūrai paspartinti, t. y. optimizuoti pritaikytas algoritmas std::stable_partition: visi elementai, kurių galutinis vidurkis > 5 eina prieš tuos, kurie netenkina sąlygos (galutinis vidurkis < 5).
 
 ## Išvados
