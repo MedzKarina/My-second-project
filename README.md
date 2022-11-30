@@ -86,9 +86,13 @@ Atminties atveju 2 strategija efektyvesnė.
 | Flags |	     01    |	     02   |	     03    |
 |-------|------------|------------|------------|
 |       |STRUCT|CLASS|STRUCT|CLASS|STRUCT|CLASS|
-|-------|------|-----|------|-----|------|-----|
 |100000 |0.063 |0.083|0.068	|0.057|0.057 |0.04 |
 |1000000|	0.492|0.5  |0.416	|0.437|0.448 |0.386|
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content | Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Išvados
 Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
