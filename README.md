@@ -15,6 +15,11 @@
 ## Išvados
 Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
 
+## **v1.2** 
+> :bookmark: v1.2
+- Realizuoti reikalavimai naudojantis `Rule of Three`.
+- Šioje versijoje pridėtas `copy constructor`, `copy assignment operator` ir `destruktorius`.
+
 # My-first-project
 
 ## **v0.1** 
