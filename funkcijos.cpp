@@ -1,4 +1,4 @@
-#include "functions.h"
+#include "funkcijos.h"
 
 using namespace std;
 
