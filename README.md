@@ -2,7 +2,7 @@
 
 # My-second-project
 
-## Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
+> Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
 
 ## **v1.1** 
 > :bookmark: v1.1
