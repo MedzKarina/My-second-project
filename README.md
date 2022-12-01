@@ -1,5 +1,17 @@
 # **Projekto dalys**
 
+# My-second-project
+## Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
+
+## **v1.1** 
+> :bookmark: v1.1
+- Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
+- Pridėtas programos veikimas naudojant "Klases"
+- Pridėta laiko analizė naudojant skirtingus kompiliatoriaus optimizavimo flag'us (laikai lentelėje pateikiami sekundėmis):
+
+## Išvados
+Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
+
 # My-first-project
 
 ## **v0.1** 
@@ -73,17 +85,3 @@ Atminties atveju 2 strategija efektyvesnė.
 - Atliekama programos veikimo greičio (spartos) analizė.
 > Jei failas jau egzistuoja anksčiau direktorijoje sukurtame "files/" aplankale, programos veikimo greičio analizė atliekama su jau sugeneruotu failu.
 > Jei failas dar neegzistuoja, pirmiausia failas sugeneruojamas ir tik tuomet vykdoma programos spartos analizė.
-
-# My-second-project
-## Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
-
-## **v1.1** 
-> :bookmark: v1.1
-- Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
-- Pridėtas programos veikimas naudojant "Klases"
-- Pridėta laiko analizė naudojant skirtingus kompiliatoriaus optimizavimo flag'us (laikai lentelėje pateikiami sekundėmis):
-
-
-
-## Išvados
-Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
