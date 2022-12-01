@@ -7,8 +7,7 @@
 ## **v1.1** 
 > :bookmark: v1.1
 - Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
-- Pridėtas programos veikimas naudojant "Klases"
-- Pridėta laiko analizė naudojant skirtingus kompiliatoriaus optimizavimo flag'us (laikai lentelėje pateikiami sekundėmis):
+- Pridėtas programos veikimas naudojant `class`.
 
 ## Išvados
 Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
