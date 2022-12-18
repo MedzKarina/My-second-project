@@ -5,20 +5,15 @@
 
 > Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
 
-## **v1.1** 
-> :bookmark: v1.1
+## **v1.1.1** 
+> :bookmark: v1.1.1
 - Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
 - Pridėtas programos veikimas naudojant `class`.
-- Atlikta greičio analizė naudojant 100000 ir 1000000 dydžio failus:
-<img src="https://user-images.githubusercontent.com/91346039/205145655-a74947e0-0f31-4547-8859-d5008185d440.png" width=40% height=40%>
+- Atlikta greičio analizė naudojant 100000 ir 1000000 dydžio failus.
 
-## Išvados
-Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
-
-## **v1.2** 
-> :bookmark: v1.2
+## **v1.2.1** 
+> :bookmark: v1.2.1
 - Realizuoti reikalavimai naudojantis `Rule of Three`.
-- Šioje versijoje pridėtas `copy constructor`, `copy assignment operator` ir `destruktorius`.
 
 # My-first-project
 
