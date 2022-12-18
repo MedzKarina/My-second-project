@@ -8,11 +8,7 @@
 > :bookmark: v1.1
 - Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
 - Pridėtas programos veikimas naudojant `class`.
-- Atlikta greičio analizė naudojant 100000 ir 1000000 dydžio failus:
-<img src="https://user-images.githubusercontent.com/91346039/205145655-a74947e0-0f31-4547-8859-d5008185d440.png" width=40% height=40%>
-
-## Išvados
-Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesniais duomenų kiekiais, dauguma atvejų programa suveikė greičiau. Su didesniais kiekiais galima padaryti tokią pačią išvadą.
+- Atlikta greičio analizė naudojant 100000 ir 1000000 dydžio failus.
 
 # My-first-project
 
