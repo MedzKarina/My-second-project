@@ -15,6 +15,10 @@
 > :bookmark: v1.2.1
 - Realizuoti reikalavimai naudojantis `Rule of Three`.
 
+## **v1.5** 
+> :bookmark: v1.5
+- Klasei "Studentas" sukurta bazinė klasė "Žmogus".
+
 # My-first-project
 
 ## **v0.1** 
