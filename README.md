@@ -19,6 +19,10 @@
 > :bookmark: v1.5
 - Klasei "Studentas" sukurta bazinė klasė "Žmogus".
 
+## **v2.0** 
+> :bookmark: v2.0
+- Sukurta dokumentacija panaudojant `Doxygen`.
+
 # My-first-project
 
 ## **v0.1** 
