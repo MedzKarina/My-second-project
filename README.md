@@ -4,7 +4,7 @@
 
 > Ankstesnės atliktos užduoties pagrindu sukurta nauja repozicija, t.y., visa git istorija iki v1.0 yra išlikusi. 
 
-## **v1.1** 
+## **v1.1.1** 
 > :bookmark: v1.1
 - Naujosios programos v1.1 veikimo principas sukurtas pasiremiant v1.0.
 - Pridėtas programos veikimas naudojant `class`.
