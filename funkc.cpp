@@ -6,9 +6,9 @@ void nuskaitymas(vector<Studentas>& studentai, int& studsk, string pavadinimas)
     auto start = std::chrono::high_resolution_clock::now();
 
     ifstream failas;
-    string eil, antraste, vardas, pavarde;
-    vector<int> paz;
-    int ndkiekis, nd, egz;
+    string eil, antraste, Vardas, Pavarde;
+    vector<int> Paz;
+    int ndkiekis, nd, Egz;
     try
     {
         failas.open(pavadinimas);
@@ -21,21 +21,23 @@ void nuskaitymas(vector<Studentas>& studentai, int& studsk, string pavadinimas)
         {
             Studentas studentas;
             stringstream stream(eil);
-            stream >> vardas >> pavarde;
+            stream >> Vardas >> Pavarde;
             for (int i = 0; i < ndkiekis; i++)
             {
                 stream >> nd;
-                paz.push_back(nd);
+                Paz.push_back(nd);
             }
-            stream >> egz;
-            studentas.setVardas(vardas);
-            studentas.setPavarde(pavarde);
-            studentas.setPazymiai(paz);
-            paz.clear();
-            studentas.setEgz(egz);
+            stream >> Egz;
+            //studentas.setStudentas(Vardas, Pavarde, Paz, Egz);
+            studentas.setVardas(Vardas);
+            studentas.setPavarde(Pavarde);
+            studentas.setPazymiai(Paz);
+            Paz.clear();
+            studentas.setEgz(Egz);
 
             studentai.push_back(studentas);
         }
+        studentai.shrink_to_fit();
         studsk = studentai.size();
         failas.close();
     }
