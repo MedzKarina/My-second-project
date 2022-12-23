@@ -20,6 +20,10 @@ Didžiausią skirtumą duoda kompiliatoriaus flag'ai. Naudojant Class su mažesn
 - Realizuoti reikalavimai naudojantis `Rule of Three`.
 - Šioje versijoje pridėtas `copy constructor`, `copy assignment operator` ir `destruktorius`.
 
+## **v3.0** 
+> :bookmark: v3.0
+- Sukuriamas setup.exe failas
+
 # My-first-project
 
 ## **v0.1** 
